@@ -31,6 +31,13 @@ La API consta de dos endpoints principales:
 La API está construida utilizando FastAPI, lo que garantiza un rendimiento rápido y una fácil integración con otros sistemas. Utiliza `skpy` para interactuar con los servicios de Skype. La ejecución del servidor se realiza a través de `uvicorn`, asegurando una gestión eficiente del servidor asíncrono.
 
 ## Ejemplo de Uso
+
 Para iniciar el servidor, ejecute el siguiente comando:
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn main:app --host 0.0.0.0 --port 8000 
+```
+
+Para revisar la documentacion ingrese a la siguiente ruta despues de iniciar el servidor:
+```bash
+http://localhost:8000/docs
+```
