@@ -34,7 +34,7 @@ La API está construida utilizando FastAPI, lo que garantiza un rendimiento ráp
 
 Para iniciar el servidor, ejecute el siguiente comando:
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 
+python main.py
 ```
 
 Para revisar la documentacion ingrese a la siguiente ruta despues de iniciar el servidor:
